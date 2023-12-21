@@ -1,0 +1,51 @@
+/*navbar css */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  
+  ul li {
+    float: left;
+  }
+  
+  ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    background-color: #111111;
+  }
+
+  /*Container css*/
+
+ 
+  .btn{
+    display: flex;
+    width:50%;
+    text-align: center !important;
+    margin-top:10%;
+    margin-left:25%;
+    padding: 15px;
+    padding-left:20%;
+    font-size: medium;
+  }
+
+  .btnS{
+    display: flex;
+    width:50%;
+    text-align: center;
+    margin-top:5px;
+    margin-left: 25%;
+    padding: 15px;
+    padding-left:20%;
+    font-size: medium;
+  }
+  
+  
