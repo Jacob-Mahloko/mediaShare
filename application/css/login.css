@@ -50,13 +50,17 @@ h3{
 }
 input {
     display: block;
-    margin-left:100px;
+    margin-left:150px;
     width: 60%;
     padding: 5px;
 }
 
 #username{
     margin-bottom:10px; 
+}
+
+#pass{
+    margin-bottom: 10px;
 }
 
 .Lform {
@@ -69,6 +73,16 @@ input {
     box-shadow: inset; 
 }
 
+.Sform{
+    margin-top:10% !important;
+    width:55%;
+    text-align: center;
+    margin:auto;
+    border: 3px solid#333333;
+    margin-top: 10px;
+    height: 250px; 
+    box-shadow: inset;  
+}
 
 
 button{
