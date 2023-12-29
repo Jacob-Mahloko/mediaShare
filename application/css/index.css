@@ -3,6 +3,7 @@
 body{
     margin:0;
     padding: 0;
+    overflow: hidden;
 }
 
 /*navbar css */
@@ -49,15 +50,17 @@ body{
   .footer{
     position: absolute;
     margin: 0;
+    margin-top:60px;
     width: 100%;
-    height:310px;
+    height:250px;
     background-color: #333333;
     color: aliceblue;
     text-decoration: none;
+    overflow: hidden;
   }
 
   .footer ul{
-    padding-top:3.5%;
+    padding-top:10px;
     list-style-type: none;
     line-height: 30px;
     text-align:center;
