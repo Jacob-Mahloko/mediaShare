@@ -5,25 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/login.css">
     <title>Login</title>
+    <script src="../js/login.js"></script>
 </head>
 <body>
     <div>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Contact Us</a></li>  
+            <li><a href="index.html#abt">About Us</a></li>
+            <li><a href="index.html#cnt">Contact Us</a></li>  
         </ul>
     </div>
     <div class="Lform">
-        <h3>
-            Login details:
-        </h3>
-        <label for="">Username:</label>
-        <input type="text" name="" id="username">
-        <label for="">Password:</label>
-        <input type="password" name="" id="pass">
-        <button class="btn-login" type="submit">Login</button>
-        <button class="btn-create" type="button">Create New!</button>
+        <form onsubmit="return validateForm()">
+            <h3>
+                Login details:
+            </h3>
+            <label for="">Username:</label>
+            <input type="text" name="username" id="username" required>
+            <label for="">Password:</label>
+            <input type="password" name="pass" id="pass" required>
+            <button class="btn-login" type="submit">Login</button>
+            <button class="btn-create" type="button" onclick="routeToSignUp()">Create New!</button>
+        </form>
+        
     </div>
 </body>
 </html>

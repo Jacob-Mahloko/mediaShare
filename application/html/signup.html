@@ -5,27 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/login.css">
     <title>Sign up</title>
+    <script src="../js/signup.js"></script>
 </head>
 <body>
     <div>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Contact Us</a></li>  
+            <li><a href="index.html#abt">About Us</a></li>
+            <li><a href="index.html#cnt">Contact Us</a></li>  
         </ul>
     </div>
     <div class="Sform">
-        <h3>
-            Sign up details:
-        </h3>
-        <label for="">Username:</label>
-        <input type="text" name="" id="username">
-        <label for="">Password:</label>
-        <input type="password" name="" id="pass">
-        <label for="">Confirm Password:</label>
-        <input type="password" name="" id="cpass">
-        <button class="btn-login" type="submit">Sign up</button>
-        <button class="btn-create" type="button">Login</button>
+        <form onsubmit="return ValidateForm()">
+            <h3>
+                Sign up details:
+            </h3>
+            <label for="">Username:</label>
+            <input type="text" name="" id="username" required>
+            <label for="">Password:</label>
+            <input type="password" name="pass" id="pass" required>
+            <label for="">Confirm Password:</label>
+            <input type="password" name="cpass" id="cpass" required>
+            <button class="btn-login" type="submit">Sign up</button>
+            <button class="btn-create" type="button" onclick="routeToLogin()">Login</button>
+        </form>
+        
     </div>
 </body>
 </html>
